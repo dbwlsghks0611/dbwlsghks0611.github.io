@@ -2,12 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style> * {box-sizing:border-box; padding:0; margin:0;} .row::after {content:""; clear:both; display:table;} 
-.col-1{width:8.33%;} .col-2{width:10.66%;} .col-3{width:25%;} .col-4{width:33.33%;} 
+.col-1{width:8.33%;} .col-2{width:16.66%;} .col-3{width:25%;} .col-4{width:33.33%;} 
 .col-5{width:41.66%;} .col-6{width:50%;} .col-7{ width:58.33%;} .col-8{width:66.66%;} 
 .col-9{width:75%;} .col-10{ width:83.33%;} .col-11{width:91.66%;} .col-12{width:100%;}
-[class*="col-"] {float:left; padding:10px;} .header, .footer{background-color:lightgray; color:blue; padding:3px;}
+[class*="col-"] {float:left; padding:10px;} .header, .footer{background-color:lightgray; color:blue; padding:10px;}
 .menu ul, .banner ul{list-style-type:none;}  
 .menu li{background-color:pink; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray;}
 .menu li:hover{background-color:red;} 
@@ -17,12 +17,20 @@
 <title>개인별 Project</title>
 </head>
 <body>
-<header class="header"><h2>나의 프로필 </h2> </header>
+<header class="header"><h2>나의 프로필</h2>
+</header>
 <div class="row"></div>
 <div id="main">
 <nav class="col-3 menu"> <!-- 메뉴 -->
-<ul><li>수강 중인 과목, 수강 예정 계획</li><li>자격증 또는 대회 경력, 그외의 경력</li><li>나의 계획</li><li>앞으로의 목표</li></ul></nav>
-<section class="col-6"></section>
-  <footer class="footer"><h4>2020.06.xx Made by Korea. All rights reserved.</h4> </footer>
+ <ul><li>수강중인 과목, 수강 예정 계획</li><li>자격증 또는 대회경력, 그외의 경력</li><li>나의 계획</li><li>앞으로의 목표</li></ul></nav>
+<section class="col-6">
+ <p>자세한 내용은 메뉴를 클릭하세요</p>
+</section>
+ <aside class="col-3 banner">
+ <ul><li><img src="Mypicture.png">사진</li>
+</aside>
+</div><div class="row"></div>
+<footer class="footer"><h4>2020.06.xx Made by Korea. All rights reserved.</h4>
+</footer>
 </body>
 </html>
