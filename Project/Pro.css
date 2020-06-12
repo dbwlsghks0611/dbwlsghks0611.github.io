@@ -1,3 +1,7 @@
+* {margin:0; padding:0;} p {text-align:justify;} .bdcolor {border:1px solid blue;}
+.over1{overflow:visible;}
+overx1{overflow-x:hidden;} .overy1{overflow-y:scroll;}
+.bk1{height:50px; width:24%; background-color:beige;} .float1{float:left;} .clear1{clear:both;}
 * {box-sizing:border-box; padding:0; margin:0;}   
 .row::after {content:""; clear:both; display:table;} 
 [class*="col-"]{float:left; padding:10px;} 
